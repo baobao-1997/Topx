@@ -1,0 +1,117 @@
+{
+	"easycom": {
+		"^tn-(.*)": "@/tuniao-ui/components/tn-$1/tn-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "游戏社区"
+			}
+		},
+		{
+			"path": "pages/filter/filter",
+			"style": {
+				"navigationBarTitleText": "数据筛选"
+			}
+		},
+		{
+			"path": "pages/sign/sign",
+			"style": {
+				"navigationBarTitleText": "签到打卡"
+			}
+		},
+		{
+			"path": "pages/download/download",
+			"style": {
+				"navigationBarTitleText": "资料图库"
+			}
+		},
+		{
+			"path": "pages/language/language",
+			"style": {
+				"navigationBarTitleText": "选择语言"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录注册"
+			}
+		},
+		{
+			"path": "pages/recents/recents",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/record/recharge/recharge",
+			"style": {
+				"navigationBarTitleText": "充值"
+			}
+		},
+		{
+			"path": "pages/record/withdrawal/withdrawal",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/record/game/game",
+			"style": {
+				"navigationBarTitleText": "游戏"
+			}
+		},
+		{
+			"path": "pages/game/default/default",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/wallet/recharge/recharge",
+			"style": {
+				"navigationBarTitleText": "充值"
+			}
+		},
+		{
+			"path": "pages/wallet/withdrawal/withdrawal",
+			"style": {
+				"navigationBarTitleText": "提现"
+			}
+		},
+		{
+			"path": "pages/game/list/list",
+			"style": {
+				"navigationBarTitleText": "游戏列表"
+			}
+		},
+		{
+			"path": "pages/game/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/MakeMoney/MakeMoney",
+			"style": {
+				"navigationBarTitleText": "赚钱"
+			}
+		},
+		{
+			"path": "pages/Article/Article",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "图鸟UI+游戏",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

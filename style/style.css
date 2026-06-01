@@ -1,0 +1,46 @@
+.c-icon-tab {
+	background: #1F2228FF;
+	border-radius: 14px;
+	border-width: 1px;
+	border-color: #343842FF;
+	border-style: solid;
+	box-shadow: 0px 2px 4px #17191C12, 0px 0px 0px #171a1f00;
+	width: 120rpx;
+	margin-bottom: 18rpx;
+}
+
+.title-solid {
+	/* height: 20rpx;
+	max-width: 60rpx;
+	width: 30rpx; */
+	background-color: red;
+	z-index: 2;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	transform: skew(-40deg);
+	border-radius: 10rpx;
+}
+
+.game-jp {
+	position: absolute;
+	background: linear-gradient(180deg, transparent, rgba(0, 0, 0, .62) 31%, #000);
+	border-radius: 0 0 .16rem .16rem;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 1rem;
+	background: linear-gradient(270deg, #b0f, #6500ff);
+	border-radius: .32rem;
+	border: .02667rem solid #ff13f6;
+	box-sizing: border-box;
+	font-weight: 900;
+	font-size: 0.6rem;
+	color: #ffe60f;
+	text-align: right;
+	font-style: normal;
+	display: flex;
+	white-space: nowrap;
+	align-items: center;
+	justify-content: center
+}

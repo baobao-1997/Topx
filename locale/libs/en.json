@@ -1,0 +1,5 @@
+{
+	"index": "Hello i18n,{name}",
+	"select_language": "选择语言",
+	"Login/Register":"登录/注册"
+}
